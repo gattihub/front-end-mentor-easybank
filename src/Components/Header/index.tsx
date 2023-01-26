@@ -27,7 +27,7 @@ export function Header(): JSX.Element {
     }
 
     return (
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg p-0">
             <div className="container">
                 <img src={logoBank} alt="Bank Logo" />
                 <button type="button" className="btn-close mb-5" data-bs-dismiss="modal" aria-label="Close"></button>
